@@ -1,0 +1,59 @@
+body {
+  font-family: 'Baskervville', serif;
+  background: #d2fafb;
+  margin: 0;
+}
+
+h1 {
+  color: #2c003e;
+}
+
+.logo {
+  font-family: 'Bad Script', cursive;
+}
+
+.note {
+  font-size: 1rem;
+  width: 35%;
+  margin: 2.5rem auto 1rem;
+}
+
+.brain-image {
+  margin-top: 50px;
+  width: 350px;
+}
+
+.top-container {
+  text-align: center;
+  background: #41aaa8;
+  padding: 25px 0 35px;
+}
+
+.middle-container {
+
+}
+
+.row {
+  margin: 130px auto;
+  width: 50%;
+}
+
+.pomodoro-img {
+
+}
+
+.memory-palace-img {
+
+}
+
+.technique-img {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.learn-more-btn {
+  text-decoration: underline;
+  color: #2c003e;
+  cursor: pointer;
+}
