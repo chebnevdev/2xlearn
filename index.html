@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Bad+Script|Baskervville&display=swap" rel="stylesheet">
-    <script src="scripts/main.js"></script>
   </head>
   <body>
     <div class="top-container">
@@ -16,15 +15,27 @@
       <h3 class="note">Final project for <a href="https://www.coursera.org/learn/learning-how-to-learn/">learning how to learn</a> course by Barbara Oakley and Terrence Sejnowski on <a href="https://coursera.org">coursera.org</a></h3>
     </div>
     <div class="middle-container">
+	  <div class="intro-div">
+		<p class="intro-heading">Learning is fun!</p>
+		<p class="intro">
+		  But sometimes we have troubles with remembering complex concepts, 
+		  fighting procrastination or overcoming other difficulties that hold us from gaining
+		  new skills. 
+		</p>
+		<p class="intro">
+		  With these techniques learning something becomes much easier and funnier!
+		</p>
+	  </div>
+	  <hr>
       <div class="pomodoro-row row">
         <img src="images/pomodoro.png" alt="tomato picture" class="pomodoro-img technique-img">
-        <h3>Pomodoro Technique</h3>
+        <h3>The Pomodoro Technique</h3>
         <p>This technique helps you tackle procrastination</p>
         <p class="learn-more-btn" onclick="getInfo('pomodoro')">Learn more...</p>
       </div>
       <div class="memory-palace-row row">
         <img src="images/palace.png" alt="palace picture" class="memory-palace-img technique-img">
-        <h3>Memory Palace</h3>
+        <h3>The Memory Palace</h3>
         <p>This technique helps you remember complex concepts</p>
         <p class="learn-more-btn" onclick="getInfo('mempal')">Learn more...</p>
       </div>
@@ -32,12 +43,35 @@
         <h3>Analogies & Metaphors</h3>
         <p>This technique helps you to tackle procrastination</p>
       </div>-->
+	  
     </div>
     <div class="bottom-container">
+		<p class="footer">
+			Have questions or suggestions?<br/>Feel free to contact me!
+		</p>
+		<a class="contact-me" href="mailto:iseeyouburn@gmail.com?subject=2xLearn%20Website">
+			Contact me
+		</a>
+	</div>
+	
+	<div id="myModal" class="modal">
 
-    </div>
-    <div id="desc-div" class="technique-desc">
-      <p>Some text</p>
-    </div>
+		  <!-- Modal content -->
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <span class="close">&times;</span>
+			  <h2 id="technique-header">Modal Header</h2>
+			</div>
+			<div class="modal-body" id="technique-body">
+			  <p>Some text in the Modal Body</p>
+			  <p>Some other text...</p>
+			</div>
+			<div class="modal-footer">
+			  <h3 id="technique-footer">Modal Footer</h3>
+			</div>
+		  </div>
+
+		</div>
+	<script src="scripts/main.js"></script>
   </body>
 </html>
